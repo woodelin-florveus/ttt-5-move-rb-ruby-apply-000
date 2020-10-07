@@ -11,3 +11,6 @@ board = [" ", " ", " "," ", " ", " "," ", " ", " "]
 input = gets.strip
 
 index = user_input(input)
+
+move(board, index)
+display_board(board)
