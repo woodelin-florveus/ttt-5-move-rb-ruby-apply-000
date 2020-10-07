@@ -9,3 +9,5 @@ puts "Please enter 1-9:"
 board = [" ", " ", " "," ", " ", " "," ", " ", " "]
 
 input = gets.strip
+
+index = user_input(input)
